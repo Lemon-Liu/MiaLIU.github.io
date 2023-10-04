@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="index.css">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scassle=1">
+    <title>Qian Huang</title>
+    <style type="text/css">
+    </style>
+</head>
+
+<body>
+  <div class=row>
+      <div class=left>
+      <h1>Qian Huang</h1>
+        <p>Hi, I'm a PhD student at Stanford University, advised by Prof. Jure Leskovec and Prof. Percy Liang. </p>
+        <p> My research interest is broadly in aligning machine reasoning with human reasoning, especially for rationality, interpretability, and extensibility with new knowledge. Currently, I am excited about understanding the reasoning algorithms learned by LLM and using LLM to automate scientific discovery processes. </p>
+        <p> Feel free to email me about research or any advice I can help with! </p>
+        <!-- <b>  I will be at ICML 2023! Will present PRODIGY and Lexinvariant LM work at SPIGM workshop. Let me know if you want to chat! </b> -->
+        <p> Links: [<a href="mailto:qhwang@cs.stanford.edu">Email</a>] [<a href="files/Qian_Huang.pdf">CV</a>] [<a href="https://scholar.google.com/citations?user=L3hkmG0AAAAJ&hl=en">Google Scholar</a>] </p>
+    </div>
+    <div class="container">
+      <img  src="img/qian.jpg">
+    </div>
+
+  </div>
+
+
+  <div height="200pt" width="100%" > <h2>New Preprints</h2>
+
+    <ul>
+      
+      <hr>
+      <li class="research_item">
+        <div class="container grid-item" style="float:left">
+            <img src="img/helm-logo.png" >
+        </div>
+        <b>Holistic Evaluation of Language Models
+        </b>
+        <br>
+        Percy Liang, Rishi Bommasani, Tony Lee, ..., Qian Huang, ...
+        <br>
+        [<a href="https://arxiv.org/abs/2211.09110">Paper</a>] [<a href="https://github.com/stanford-crfm/helm">Code</a>]
+        <br>
+        <b>TL;DR</b>: We present Holistic Evaluation
+        of Language Models (HELM) to improve the transparency of language models. 
+      </li>
+    </ul>
+  </div>
+  
+
+  <div height="200pt" width="100%" > <h2>Publications</h2>
+  <ul>
+    <li class="research_item">
+      <div class="container grid-item" style="float:left">
+          <img src="img/prodigy.png" >
+      </div>
+      <b>PRODIGY: Enabling In-context Learning Over Graphs 
+      </b>
+      <br>
+      <b>Qian Huang</b>, Hongyu Ren, Peng Chen, Gregor Kržmanc, Daniel Zeng, Percy Liang, Jure Leskovec
+      <br>
+      <b>Spotlight @ NeurIPS 2023</b>
+      <br>
+      [<a href="https://arxiv.org/abs/2305.12600">Paper</a>] [<a href="https://github.com/snap-stanford/prodigy">Code</a>]
+      <br>
+      <b>TL;DR</b>: We enable in-context learning over graphs with a novel in-context task representation PromptGraph and a corresponding pretraining framework PRODIGY. We empirically demonstrate the strong in-context learning performance induced on tasks over citation networks and knowledge graphs, with on average 18% improvement upon contrastive pretraining (with hard-coded adaptation for in-context setup) and 33% over standard finetuning with limited data. 
+    </li>
+    <hr>
+    <li class="research_item">
+      <div class="container grid-item" style="float:left">
+          <img src="img/lexinvariant.png" >
+      </div>
+      <b>Lexinvariant Language Models
+      </b>
+      <br>
+      <b>Qian Huang</b>, Eric Zelikman, Sarah Li Chen, Yuhuai Wu, Gregory Valiant, Percy Liang
+      <br>
+      <b>Spotlight @ NeurIPS 2023</b>
+      <br>
+      [<a href="https://arxiv.org/abs/2305.16349">Paper</a>]
+      <br>
+      <b>TL;DR</b>: Investigate lexinvariant language models that do not have fixed token embedding and therefore are invariant to lexical symbols. We show that such a language model still attains surprisingly comparable perplexity to a regular language model given a sufficiently long context context, both theoretically and empirically.`
+      We argue that it essentially learns to perform in-context Baysian deciphering and it can achieve significantly better performance over various synthetic reasoning tasks. 
+    </li>
+    <hr>
+    <li class="research_item">
+      <div class="container grid-item" style="float:left">
+          <img src="img/parsel.png" >
+      </div>
+      <b>Parsel: A Unified Natural Language Framework for Algorithmic Reasoning
+      </b>
+      <br>
+      Eric Zelikman, <b>Qian Huang</b>, Gabriel Poesia, Noah D. Goodman, Nick Haber
+      <br>
+      <b>Spotlight @ NeurIPS 2023</b>
+      <br>
+      [<a href="https://arxiv.org/abs/2212.10561">Paper</a>] [<a href="https://github.com/ezelikman/parsel">Code</a>]
+      <br>
+      <b>TL;DR</b>: We introduce Parsel, a framework enabling automatic implementation and validation of complex algorithms with code LLMs, based on hierarchical function descriptions in natural language. Parsel can be used across domains requiring hierarchical reasoning, e.g. code synthesis, theorem proving, and robotic planning. Beyond modeling capabilities, Parsel allows problem-solving with high-level algorithmic designs, benefiting both students and professional programmers.
+    </li>
+  <li class="research_item">
+    <div class="container grid-item" style="float:left">
+        <img src="img/CSR.png" >
+    </div>
+    <b>Few-shot Relational Reasoning via Connection Subgraph Pretraining</b>
+    <br>
+    <b>Qian Huang*</b>, Hongyu Ren*, Jure Leskovec
+    <br>
+    <a href="https://openreview.net/forum?id=LvW71lgly25"> Accepted to NeurIPS 2022 </a>
+    <br>
+    [<a href="https://arxiv.org/abs/2210.06722">Paper</a>] [<a href="https://github.com/snap-stanford/csr">Code</a>] 
+    <br>
+    <b>TL;DR</b>: We proposed a novel few-shot relational reasoning framework Connection Subgraph Reasoner (CSR), which can make predictions for the target few-shot task directly via self-supervised pretraining on subgraph matching. We demonstrated that CSR can achieve significant gains of up to 56% on the more challenging inductive few-shot tasks where the entities are also unseen during (pre)training.
+  </li>
+  <hr>
+  <li class="research_item">
+    <div class="container grid-item" style="float:left">
+        <img src="img/simple.png" >
+    </div>
+    <b>Combing Label Propagation and Simple Models Out-performs Graph Neural Networks</b>
+    <br>
+    <b>Qian Huang*</b>, Horace He* , Abhay Singh, Ser-Nam Lim, Austin Benson
+    <br>
+    <a href="https://openreview.net/forum?id=8E1-f3VhX1o"> Accepted to ICLR 2021 </a>
+    <br>
+    [<a href="https://openreview.net/forum?id=8E1-f3VhX1o">Paper</a>] [<a href="https://github.com/CUAI/CorrectAndSmooth">Code</a>] 
+    <br>
+    <b>TL;DR</b>: We demonstrated that for most popular transductive node classification tasks, state-of-the-art GNN models can be out-performed by a shallow MLP prediction followed by the post-processing of two Label Propagation variants. This simple framework directly uses label information and drastically reduces the parameters and runtimes needed to achieve state-of-the-art.
+  </li>
+  <hr>
+  <li class="research_item">
+    <div class="container grid-item" style="float:left">
+        <img src="img/BSR.png" >
+    </div>
+    <b>Better Set Representations for Relational Reasoning</b>
+    <br>
+    <b>Qian Huang*</b>, Horace He* , Abhay Singh, Yan Zhang, Ser-Nam Lim, Austin Benson
+    <br>
+    <a href="https://arxiv.org/abs/2003.04448"> Accepted to NeurIPS 2020 </a>
+    <br>
+    [<a href="https://arxiv.org/abs/2003.04448">Paper</a>] [<a href="https://github.com/CUAI/BetterSetRepresentations">Code</a>]  [<a href="https://www.youtube.com/watch?v=Yhe5mZ-i6-Y">ICML OOL workshop Talk</a>]
+    <br>
+    <b>TL;DR</b>: Extracting sets of entities from unformatted data automatically is important for supporting reasoning models such as graph neural networks or transformers. Existing popular methods are generally task dependent or ignore the set structure. We show that by generating sets "properly", we can improve performance and robustness on a wide variety of tasks.
+  </li>
+  <hr>
+  <li class="research_item">
+    <div h class="container grid-item" style="float:left">
+      <img src="img/ILA.png">
+    </div>
+    <b> Enhancing Adversarial Example Transferability with an Intermediate Level Attack </b>
+    <br>
+    <b>Qian Huang*</b>, Horace He*, Isay Katsman*, Zeqi Gu*, Serge Belongie, Ser-Nam Lim
+    <br>
+    <a href="http://iccv2019.thecvf.com/">ICCV 2019</a>
+    <br>
+    [<a href="https://arxiv.org/abs/1907.10823">Paper</a>] [<a href="https://github.com/CUAI/Intermediate-Level-Attack">Code</a>] [<a href="https://slideslive.com/38922555/contributed-talk-5-enhancing-adversarial-example-transferability-with-an-intermediate-level-attack">Talk at WIML Workshop</a>] [<a href="https://twitter.com/cHHillee/status/1201705688898113536">Twitter Thread</a>] [<a href="https://news.cornell.edu/stories/2019/11/cs-undergrads-research-sets-sights-image-hackers">Cornell Chronicle</a>]
+    <br>
+    <b>TL;DR</b>: We can improve the transferability of an adversarial example significantly by maximizing the projection of perturbation onto its original perturbation direction in the feature space. Choosing the layer at which we optimize the projection changes the transferability significantly. Although we provided some justification for the method, it remains mysterious to us why this method can discover the vulnerability of other CNNs based on one model's vulnerability.
+    <br>
+  </li>
+  <hr>
+
+  </ul>
+  </div>
+</body>
+
+</html>
